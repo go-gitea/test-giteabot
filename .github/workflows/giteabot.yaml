@@ -36,4 +36,4 @@ jobs:
         uses: go-gitea/giteabot@main
         with:
           github_token: ${{ secrets.GITEABOT_TOKEN }}
-          gitea_fork: GiteaBot/gitea
+          gitea_fork: lunny/test-giteabot
