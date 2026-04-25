@@ -33,7 +33,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run Gitea Backporter
-        uses: go-gitea/giteabot@main
+        uses: go-gitea/giteabot@v1
         with:
           github_token: ${{ secrets.GITEABOT_TOKEN }}
           gitea_fork: lunny/test-giteabot
